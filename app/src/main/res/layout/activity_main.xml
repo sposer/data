@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/main_edt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入内容" />
+
+    <TextView
+        android:id="@+id/main_txt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输出内容" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="add"
+        android:text="增" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="remove"
+        android:text="删" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="search"
+        android:text="查" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="edit"
+        android:text="改" />
+
+
+</LinearLayout>
